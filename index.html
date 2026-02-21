@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bill Gates Servet Harcama Oyunu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <h1>Bill Gates'in Parasını Harca</h1>
+    <p class="subtitle">Başlangıç Bakiyesi: <span id="balance">$100,000,000,000</span></p>
+  </header>
+
+  <main>
+    <section id="productList" class="product-list"></section>
+
+    <section class="summary">
+      <h2>Satın Alınan Ürünler</h2>
+      <div id="emptyMessage">Henüz ürün alınmadı.</div>
+      <table id="cartTable" class="cart-table hidden">
+        <thead>
+          <tr>
+            <th>Ürün</th>
+            <th>Adet</th>
+            <th>Toplam</th>
+          </tr>
+        </thead>
+        <tbody id="cartBody"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
